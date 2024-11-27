@@ -1,0 +1,17 @@
+{
+	"layer": "top",
+	"output": "HDMI-A-1",
+	"modules-left": ["river/tags", "river/window"],
+	"modules-right": ["clock"],
+	"river/window": {
+		"max-length": 200,
+		"separate-outputs": true
+	},
+	"river/tags": {
+		"format": "{icon}",
+		"on-click": "activate"
+	},
+	"clock": {
+		"format-alt": "{:%d/%m/%Y %H:%M}"
+	}
+}
