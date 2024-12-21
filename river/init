@@ -11,9 +11,10 @@
 # Note: the "Super" modifier is also known as Logo, GUI, Windows, Mod4, etc.
 
 # Super+Shift+Return to start an instance of foot (https://codeberg.org/dnkl/foot)
-riverctl map normal Super Return spawn kitty
+riverctl spawn "waybar &"
+riverctl map normal Super Return spawn alacritty
 
-riverctl map normal Super D spawn j4-dmenu-desktop
+riverctl map normal Super D spawn "rofi -show drun"
 
 riverctl map normal Super+Shift R spawn $HOME/.config/river/init
 
